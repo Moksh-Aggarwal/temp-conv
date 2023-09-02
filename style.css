@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+}
+
+
+.h1 {
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.p{
+    align-items: center;
+    text-align: center;
+}
+.mainbox {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    max-width: 42vh;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.mainbox,input {
+    /* margin: 10px; */
+    font-size: 18px;
+
+}
+
+.input{
+    font-size: 400px;
+}
+
+.input,p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
